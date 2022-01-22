@@ -1,10 +1,9 @@
 # Cinnamon Patch
-## Arc
+Fixes the confusing highlighting in the Grouped Window List panel
+
 | BEFORE | AFTER |
 | ----------- | ----------- |
-| Header | Title | 
-
-## Arc-Dark
+| ![](https://i.imgur.com/SUlliUU.png) | ![](https://i.imgur.com/bPbptE3.png) | 
 
 # Arc Theme
 Arc is a flat theme with transparent elements for GTK 3, GTK 2 and various desktop shells, window managers and applications. It's well suited for GTK based desktop environments such as GNOME, Cinnamon, Xfce, Unity, MATE, Budgie etc.
@@ -47,7 +46,10 @@ Arc comes with themes for the following
 - Xfwm
 - Plank
 
---
-
 ## Manual Installation
-
+```
+mkdir ~/.themes
+git clone https://github.com/clerizedd/arc-theme.git
+cd arc-theme
+cp -r Arc Arc-Dark Arc-Darker Arc-Lighter ~/.themes
+```
